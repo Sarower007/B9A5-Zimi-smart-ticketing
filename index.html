@@ -12,24 +12,13 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body style="font-family: Raleway, sans-serif;" class="container mx-auto">
-    <!-- header area section start -->
-    <header class="px-2">
+<body style="font-family: Raleway, sans-serif;"  class=" w-full mx-auto">
+    <!-- header section start -->
+    <header class="w-4/5 mx-auto">
         <!-- nav menu start -->
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-100 py-4">
             <div class="navbar-start">
-              <div class="dropdown">
-                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                </div>
-                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                  <li><a>Home</a></li>
-                  <li><a>About</a></li>
-                  <li><a>Destination</a></li>
-                  <li><a>Search</a></li>
-                </ul>
-              </div>
-              <a class="lg:text-[30px] cursor-pointer font-extrabold">Z-Paribahan</a>
+              <a class="lg:text-[30px] cursor-pointer font-bold">Z-Paribahan</a>
             </div>
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
@@ -43,13 +32,15 @@
               <a class="btn border-[#1DD100] cursor-pointer"><span class="text-[#1DD100] lg:font-semibold">Bus</span> <img src="./images/bus-icon.png" alt=""></a>
             </div>
           </div>
-          <!-- nav manu end  -->
+          <!-- nav menu end  -->
+
+
           <!-- banner start  -->
           <div class="mb-5 bg-[url('./images/banner.png')] bg-no-repeat bg-center bg-cover h-[550px] rounded-2xl">
             <div class="text-center space-y-6">
                 <h1 class="lg:text-6xl text-[30px] font-extrabold text-white pt-[80px]">End-to-End Travel with <br> <span class="text-[#1DD100]">Z Paribahan</span> </h1>
                 <p class="lg:w-[600px] mx-auto text-white text-base font-medium">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
-                <button class="btn bg-[#1DD100] border-none text-[20px] font-semibold text-black"><a href="#triket-now">Buy Tickets</a></button>
+                <button class="btn bg-[#1DD100] border-none text-[20px] font-bold text-black "><a href="#ticket-now">Buy Tickets</a></button>
             </div>
           </div>
           <div class="lg:flex items-center justify-around lg:relative lg:bottom-[70px]">
@@ -79,10 +70,10 @@
           </div>
           <!-- banner end  -->
     </header>
-    <!-- header area section end  -->
+    <!-- header section end  -->
 
     <!-- main area section   -->
-    <main class="px-2">
+    <main class="w-4/5 mx-auto">
         <!-- coupon section start -->
         <section>
             <h2 class="text-[30px] font-bold text-black text-center mt-10">Best offers for you</h2>
@@ -119,15 +110,15 @@
         </section>
         <!-- coupon section end -->
         <!-- ticket area section start  -->
-        <section class="px-2 bg-[#F7F8F8] border-t-4 border-[#1DD100] pb-8 rounded-t-[120px]">
+        <section class=" bg-[#F7F8F8] border-t-2 border-[#1DD100] pb-8 rounded-t-[120px]">
             <div class="  mt-[50px]">
                 <div class="text-center mt-10 lg:w-[600px] mx-auto space-y-2">
                     <h1 class="text-xl font-bold text-black">ZiMi-Paribahan</h1>
                     <p class="text-base font-medium">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined .</p>
                 </div>
             </div>
-            <div class="lg:flex bg-white items-center m-16 rounded-2xl  ">
-                <div class=" lg:w-[840px] px-5 pt-2 space-y-5 mx-auto">
+            <div class="lg:flex bg-white items-center m-4 rounded-2xl  ">
+                <div class=" lg:w-full px-5 pt-2 space-y-5 mx-auto">
                     <div class="lg:flex justify-between space-y-5">
                         <div class="flex items-center gap-2">
                             <img src="./images/bus-logo.png" alt="">
@@ -149,7 +140,7 @@
                             <p class="text-base font-medium">Route</p>
                         </div>
                         <div>
-                            <p class="text-xl font-semibold">Dhaka - Sylhet</p>
+                            <p class="text-xl font-semibold">Mymensingh - Syhlet</p>
                         </div>
                     </div>
                     <hr class="border-b border-dashed">
@@ -163,8 +154,8 @@
                     </div>
                     <hr class="border-b border-dashed">
                     <div class=" space-y-3 flex justify-between items-center">
-                        <button class="btn mr-7 bg-[#0307120D]">Boarding Point - Laxmipur</button>
-                        <button class="btn mr-7 bg-[#0307120D]">Dropping Point - Bogura</button>
+                        <button class="btn mr-7 bg-[#0307120D]">Boarding Point - Shylet</button>
+                        <button class="btn mr-7 bg-[#0307120D]">Dropping Point - Mymensingh</button>
                         <button class="btn mr-7 bg-[#0307120D]">Est. Time - 11 Hour</button>
                     </div>
                    </div>
@@ -189,8 +180,8 @@
         </section>
 
         <section class=" bg-[#F7F8F8]" id="ticket-now">
-            <div class="lg:flex mx-16 bg-white p-8 rounded-2xl">
-                <div class="lg:w-[840px] mx-auto space-y-5">
+            <div class="lg:flex mx-2 bg-white p-4 rounded-2xl">
+                <div class="lg:w-full mx-auto space-y-5">
                     <div>
                         <h5 class="text-xl font-semibold">Select Your Seat</h5>
                     </div>
@@ -320,8 +311,8 @@
                         </div>
                      </div>
                 </div>
-                <div class="w-2 border-dashed border-l-2 mx-5 "></div>
-                <div class="lg:w-[400px] mx-auto space-y-5 ">
+                <div class=" border-dashed border-l-2 mx-5 "></div>
+                <div class="lg:w-[300px] mx-auto space-y-5 ">
               <div class="bg-[#F7F8F8] p-4 rounded-xl flex flex-col justify-between gap-4">
                 <div class="">
                     <h5 class="text-xl font-semibold">Select Your Seat</h5>
@@ -353,7 +344,7 @@
                     <h4 class="flex justify-between w-[400px] text-xl font-semibold text-black"><p>Discount</p><p>BDT <span id="discount">0</span></p></h4>
                   </div>
                 <div id="hidden flex justify-between gap-4">
-                    <input type="text" name="" id="coupon" placeholder="Have any coupon?" class=" p-4 lg:w-[270px] w-[265px] h-[50px] rounded-xl border-2 border-gray-200 pl-2 outline-none">
+                    <input type="text" name="" id="coupon" placeholder="Have any coupon?" class=" p-6 lg:w-[180px] w-[265px] h-[50px] rounded-xl border-2 border-gray-200 pl-2 outline-none">
                     <button id="apply" class="btn bg-[#1DD100]" disabled >Apply</button>
                 </div>
                 <div class="flex justify-between">
@@ -367,11 +358,11 @@
               </div>
                     <div class="">
                         <label for="" class="text-base font-medium">Passenger Name*</label>
-                        <input type="text" name="" id="" placeholder="Enter your name"  class="lg:w-[380px] mb-4 w-[350px] h-[50px] border-2 rounded-xl p-4 border-gray-200 pl-2 outline-none">
+                        <input type="text" name="" id="" placeholder="Enter your name"  class="lg:w-[300px] mb-4 w-[300px] h-[50px] border-2 rounded-xl p-4 border-gray-200 pl-2 outline-none">
                         <label for="" class="text-base font-medium">Phone Number*</label>
-                        <input type="number" name="" id="number-phone" placeholder="Enter your phone number" class=" mb-4 lg:w-[380px] w-[350px] h-[50px] rounded-xl p-4 border-2 border-gray-200 pl-2 outline-none">
+                        <input type="number" name="" id="number-phone" placeholder="Enter your phone number" class=" mb-4 lg:w-[300px] w-[350px] h-[50px] rounded-xl p-4 border-2 border-gray-200 pl-2 outline-none">
                         <label for="" class="text-base font-medium">Email ID</label>
-                        <input type="email" name="" id="" placeholder="Enter your email id" class="lg:w-[380px] w-[350px] h-[50px] rounded-xl p-4 border-2 border-gray-200 pl-2 outline-none">
+                        <input type="email" name="" id="" placeholder="Enter your email id" class="lg:w-[300px] w-[350px] h-[50px] rounded-xl p-4 border-2 border-gray-200 pl-2 outline-none">
                     </div>
                     <div class="">
                         <button id="modal-btn" class="btn mt-6 w-full bg-[#1DD100] text-white" onclick="my_modal_4.showModal()" disabled>Next</button>
@@ -400,43 +391,47 @@
          
     </main>
 
-    <!-- footer area section  -->
-    <footer class="bg-[#030712] lg:h-[300px] mt-[50px]">
-        <div class="lg:flex justify-between items-center p-10">
-            <div class="space-y-5">
-                <h2 class="lg:text-3xl text-xl raleway-font font-bold lg:font-bold text-white cursor-pointer">Z-Paribahan</h2>
-                <p class="lg:text-xl text-gray-300">Z-Paribahan is a digital platform to make your <br> daily commuting better.</p>
-            </div>
-            <br>
-            <div class=" space-y-5">
-                <h4 class="text-xl font-medium text-white">Download our app</h4>
-               <div class="flex items-center text-white gap-3 p-2 border-2 rounded-xl">
-                <img src="" alt="">
-                <img src="./images/playstore.png" alt="img" class="cursor-pointer">
-                <div>
-                    <h1>GET IT ON</h1>
-                    <p class="font-bold">Google Play Store</p>
-                </div>
-               </div>
-            </div>
-        </div>
-        <div class="lg:w-[1200px] mx-auto">
-            <hr class="border-dashed border-[#FFFFFF4D]">
-        </div>
-        <div class="flex  lg:justify-between lg:items-center p-10">
-            <div class="space-y-5">
-                <p class="lg:text-base lg:font-medium text-gray-300">@all rights reserved, Z-Paribahan services limited.2024</p>
-            </div>
-            <br>
-            <div class="flex justify-center items-center">
-                <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Terms & condition</li>
-                <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Return & refund policy</li>
-                <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Privacy policy</li>
-            </div>
-        </div>
-    </footer>
+    <!-- footer section  -->
+    <footer class="bg-[#030712] w-full m-0 p-0 lg:h-[300px] mt-[50px]">
 
-    <!-- javascript link  -->
+        <div class="w-4/5 mx-auto">
+            <div class="lg:flex justify-between items-center p-10">
+                <div class="space-y-5">
+                    <h2 class="lg:text-3xl text-xl raleway-font font-bold lg:font-bold text-white cursor-pointer">Z-Paribahan</h2>
+                    <p class="lg:text-xl text-gray-300">Z-Paribahan is a digital platform to make your <br> daily commuting better.</p>
+                </div>
+                <br>
+                <div class=" space-y-5">
+                    <h4 class="text-xl font-medium text-white">Download our app</h4>
+                   <div class="flex items-center text-white gap-3 p-2 border-2 rounded-xl">
+                    <img src="" alt="">
+                    <img src="./images/playstore.png" alt="img" class="cursor-pointer">
+                    <div>
+                        <h1>GET IT ON</h1>
+                        <p class="font-bold">Google Play Store</p>
+                    </div>
+                   </div>
+                </div>
+            </div>
+            <div class="lg:w-full mx-auto">
+                <hr class="border-dashed border-[#FFFFFF4D]">
+            </div>
+            <div class="flex  lg:justify-between lg:items-center p-10">
+                <div class="space-y-5">
+                    <p class="lg:text-base lg:font-medium text-gray-300">@all rights reserved, Z-Paribahan services limited.2024</p>
+                </div>
+                <br>
+                <div class="flex justify-center items-center">
+                    <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Terms & condition</li>
+                    <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Return & refund policy</li>
+                    <li class="list-none lg:mr-5 mr-2 lg:text-base lg:font-medium cursor-pointer text-white">Privacy policy</li>
+                </div>
+            </div>
+      
+        </div>
+          </footer>
+
+    <!-- javascript -->
     <script src="script.js"></script>
 </body>
 </html>
